@@ -144,16 +144,17 @@ double xrhma;
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
          
           jLabel1.setText("€");
-            xrhma=Double.parseDouble(jTextField1.getText());
+            xrhma = Double.parseDouble(jTextField1.getText());
           jLabel4.setText("-");
           jLabel2.setText(String.valueOf(xrhma * 1.08 + " $"));
-          jLabel3.setText(String.valueOf(xrhma * 0.77 + " £"));// TODO add your handling code here:
+          jLabel3.setText(String.valueOf(xrhma * 0.77 + " £"));
+            // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
          
           jLabel1.setText("$");
-             xrhma=Double.parseDouble(jTextField1.getText());
+             xrhma = Double.parseDouble(jTextField1.getText());
           jLabel2.setText("-");
           jLabel4.setText(String.valueOf(xrhma * 0.92 + " €"));
           jLabel3.setText(String.valueOf(xrhma * 0.69 + " £"));// TODO add your handling code here:
@@ -162,14 +163,14 @@ double xrhma;
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
         
           jLabel1.setText("£");
-             xrhma=Double.parseDouble(jTextField1.getText());
+             xrhma = Double.parseDouble(jTextField1.getText());
           jLabel3.setText("-");
           jLabel4.setText(String.valueOf(xrhma * 1.28 + " €"));
           jLabel2.setText(String.valueOf(xrhma * 1.45 + " $"));// TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void btnClrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClrActionPerformed
-             xrhma=0; 
+             xrhma = 0; 
              jTextField1.setText("");
           jLabel3.setText("");
           jLabel4.setText("");
